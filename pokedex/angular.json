@@ -92,6 +92,7 @@
         "extract-i18n": {
           "builder": "ngx-build-plus:extract-i18n",
           "options": {
+            "extraWebpackConfig": "webpack.config.js",
             "browserTarget": "pokedex:build"
           }
         },
