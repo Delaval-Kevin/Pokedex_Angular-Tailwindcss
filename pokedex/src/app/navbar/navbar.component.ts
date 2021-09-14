@@ -4,14 +4,19 @@
 /*Date de la création du fichier : 14/09/2021              */
 /***********************************************************/
 
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
-const routes: Routes = [];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+@Component({
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.scss']
 })
+export class NavbarComponent implements OnInit 
+{
+  constructor() { }
 
-export class AppRoutingModule { }
+  ngOnInit(): void 
+  {
+
+  }
+}

@@ -4,14 +4,8 @@
 /*Date de la création du fichier : 14/09/2021              */
 /***********************************************************/
 
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+/* You can add global styles to this file, and also import other style files */
 
-const routes: Routes = [];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-
-export class AppRoutingModule { }
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
